@@ -1,17 +1,30 @@
-# flutter_hotel_booking_assigment
+# Flutter Hotel Booking Assignment
 
-A new Flutter project.
+A Flutter hotel booking application developed as part of a technical interview assignment.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Hotel listing screen
+- Hotel details screen
+- Booking date screen
+- Account / profile screen
+- Custom bottom navigation
+- Custom side drawer
+- Responsive UI
+- Reusable Flutter widgets
+- Asset-based UI implementation
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+lib/
+├── app/
+├── core/
+│   ├── constants/
+│   └── utils/
+├── ui/
+└── widgets/
