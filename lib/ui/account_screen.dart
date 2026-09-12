@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_hotel_booking_assigment/core/constants/app_dimensions.dart';
+import 'package:flutter_hotel_booking_assigment/core/constants/app_text_styles.dart';
 
-import '../../core/constants/app_colors.dart';
 
 class AccountScreen extends StatelessWidget {
   const AccountScreen({
@@ -117,11 +117,8 @@ class AccountScreen extends StatelessWidget {
                 title,
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
-                style: const TextStyle(
-                  color: AppColors.white,
-                  fontSize: 14,
-                  fontWeight: FontWeight.w600,
-                ),
+                 style: AppTextStyles.profileTitle,
+
               ),
               const SizedBox(height: 2),
               Text(
