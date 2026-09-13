@@ -145,7 +145,7 @@ class _Header extends StatelessWidget {
           ),
           child: IconButton(
             onPressed: openDrawer,
-            icon:Icon(Icons.menu_open_rounded,size: AppDimensions.scaleWidth(screenWidth, 20),color: AppColors.white,)
+            icon:Icon(Icons.menu,size: AppDimensions.scaleWidth(screenWidth, 20),color: AppColors.white,)
           ),
         ),
       ],
